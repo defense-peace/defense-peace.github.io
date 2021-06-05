@@ -1,0 +1,61 @@
+.head li{
+    display: inline-block;
+    width:230px;
+    height:50px;
+    font-family:STHupo;
+    font-size:25px;
+}
+.head1:hover{
+    background-color: pink;
+}
+.recommend{
+    width:200px;
+    font-family:STHupo;
+    font-size:25px;
+}
+.body-left{
+    border-style:solid;
+    width:200px;
+    border: 2px solid DodgerBlue;
+    font-family:STZhongsong;
+
+}
+.body-left li{
+    display: inline-block;
+}
+audio{
+    position:absolute;
+    width:1530px;
+    position:fixed;
+    bottom:0;
+    right: 0px;
+}
+body{
+    background-image:url(./图片/1.jpg);
+    width:1500px;
+    height:800px;
+    background-size:cover;
+}
+footer div{
+    color:#8b0000;
+    font-size: 15px;
+    display: inline-block;
+    border-right: 1px solid #FFFFFF;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 30px;
+    font-family:STZhongsong;
+}
+.one{
+    width: 300px;
+}
+.two{
+    width: 400px;
+}
+.three{
+    width: 300px;
+}
+.four{
+    width: 180px;
+    border: 0;
+}
