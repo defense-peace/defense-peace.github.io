@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>免费音乐网站</title>
+    <link type="text/css" rel="stylesheet" href="音乐网站.css">
+    <script type="text/javascript" src="音乐网站.js"></script>
+</head>
+<body>
+    <font style="font-family:STCaiyun" color="#8b0000" size="10">免费音乐网站</font>
+    <div class="head" align="center" >
+            <ul >
+                <span class="head-top" align="center">
+                    <li class="head1" onmouseover="mOver(this)"><a href="./音乐">发现音乐</a></li>
+                    <li class="head1" onmouseover="mOver(this)">我的音乐</li>
+                    <li class="head1" onmouseover="mOver(this)">朋友</li>
+                    <li class="head1" onmouseover="mOver(this)">商城</li>
+                </span>
+                <span class="head-top1">
+                    <li>
+                    <form action="#" method="post">
+                        <input type="text"  id="search" >
+                        <input type="button" value="搜索" onclick="test()">
+                    </form>
+                    </li>
+                    <li>
+                    <a href="登录.html" >登录</a>
+                    <a href="注册.html">注册</a>
+                    </li>
+                </span>
+            </ul>
+    </div>
+    <div class="body" >
+        <p align="center" class="recommend">推荐歌曲</p>
+        <div class="body-left">
+            <ul>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">9420 </span>
+                </li>
+            </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">9277 (原版) </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">BINGBIAN病变 (女声版) </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">c哩c哩 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">体面《前任3：再见前任》电影插曲 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">佛系少女 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">侧脸 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">安娜的橱窗 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">带你去旅行 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">安娜的橱窗 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">山楂树の恋 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">成都 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">把孤独当作晚餐 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">浪人琵琶 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">纸短情长 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">红昭愿 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">空空如也 </span>
+                </li>
+                <br>
+                <li>
+                    <span style="cursor: pointer;" id="start" onclick="fn(this)">我走后 </span>
+                </li>
+                <br>
+            </ul>
+        </div>
+    </div>
+    <audio id="player" controls="controls">
+        <source src="./音乐/9277 (原版).mp3" id="play"/>
+    </audio>
+    <footer id="bottom" align="center">
+        <div class="one">作者邮箱：2396808666@qq.com</div>
+        <div class="two">作者地址：河南郑州市龙湖中山北路1号 邮编：451191</div>
+        <div class="three">版权所有 © 河南工程学院软件学院</div>
+        <div class="four">管理员入口</div>
+    </footer>
+</body>
+</html>
